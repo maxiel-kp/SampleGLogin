@@ -1,0 +1,9 @@
+﻿@page
+@model LoginModel
+
+<h1>Login Page</h1>
+
+<div>
+    <p>Click the button below to login with Google:</p>
+    <a asp-controller="Account" asp-action="ExternalLogin" asp-route-provider="Google" class="btn btn-primary">Login with Google</a>
+</div>
